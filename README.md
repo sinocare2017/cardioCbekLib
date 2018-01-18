@@ -8,11 +8,12 @@
 二，接入流程
 1.集成jar到项目libs中
 2.在项目接收到蓝牙广播过来数据的地方，
-	   final byte[] data = characteristic.getValue();
-            BaseData baseData  = CardioChekBlack.getInstance().parse(data);
-            if(baseData != null){
-               //获取到数据去执行你的业务逻辑
-            }
+		   
+		final byte[] data = characteristic.getValue();
+		BaseData baseData  = CardioChekBlack.getInstance().parse(data);
+		if(baseData != null){
+		//获取到数据去执行你的业务逻辑
+		}
 
 （设备的蓝牙数据是分多次广播的，jar包中已经处理，集成jar只需要把每次收到数据传入parse中处理，会在数据接收完整时，返回给调用者一个完整的javaBean）
 
