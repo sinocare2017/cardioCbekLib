@@ -18,6 +18,7 @@
 （设备的蓝牙数据是分多次广播的，jar包中已经处理，集成jar只需要把每次收到数据传入parse中处理，会在数据接收完整时，返回给调用者一个完整的javaBean）
 
 三，javaBean字段说明
+
 		public String testTime;//测量时间
 		public String unit;//测量单位
 		public String valueChol;//总胆固醇
