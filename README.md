@@ -1,9 +1,11 @@
 # cardioCbekLib
-三诺卡迪克设备接入lib
+三诺卡迪克设备接入lib（android 版）
 
 一，接入说明：
-本jar包只包含蓝牙数据协议解析部分，不包含蓝牙连接功能实现。demo中蓝牙连接是参考android 蓝牙官方demo
-对应的卡迪克蓝牙设备编号：ORNW40  
+
+		本jar包只包含蓝牙数据协议解析部分，不包含蓝牙连接功能实现。demo中蓝牙连接是参考android 蓝牙官方demo
+		需要的硬件版本必须支持蓝牙ble，系统版本android 4.4及以上
+对应的卡迪克蓝牙`设备编号：ORNW40`
 
 二，接入流程
 1.集成jar到项目libs中
