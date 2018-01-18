@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/CardioCbekLib.iml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/app.iml
+/.idea
